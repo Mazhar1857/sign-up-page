@@ -1,0 +1,124 @@
+.login {
+    width: 576px;
+    height: 614px;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #C1C1C1;
+    border-radius: 20px;
+    padding-top: 40px;
+
+
+    >h1 {
+        font-size: 2em;
+        font-weight: 600;
+        margin-bottom: 36px;
+    }
+
+    >h2 {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    >p:nth-child(3) {
+        font-weight: 400;
+        margin-block: 13px 31px;
+    }
+
+
+    form {
+        >div {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            width: 456px;
+            height: 74px;
+            margin-bottom: 32px;
+            position: relative;
+        }
+
+        .valid {
+            display: none;
+            position: absolute;
+        }
+
+        .invalid {
+            position: absolute;
+            bottom: -16px;
+            font-size: 12px;
+            right: 2px;
+            color: red;
+            font-weight: 500;
+        }
+
+
+        input {
+            width: 456px;
+            height: 48px;
+            border-radius: 6px;
+            border: 1px solid #C1C1C1;
+            padding-inline: 16px;
+            font-family: inherit;
+            font-size: 1em;
+        }
+
+        .password-field {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            span {
+                position: absolute;
+                right: 14px;
+                text-decoration: underline;
+                text-underline-offset: 3px;
+                font-weight: 400;
+                font-size: 1em;
+            }
+
+            span:hover {
+                cursor: pointer;
+            }
+        }
+
+
+
+        >button {
+            width: 456px;
+            height: 48px;
+            margin-top: 8px;
+            border-radius: 6px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-family: inherit;
+        }
+
+        >button:hover {
+            cursor: pointer;
+        }
+    }
+
+    .hr-line {
+        background-color: #C1C1C1;
+        width: 456px;
+        height: 1px;
+
+        margin-block: 29px 31px;
+    }
+
+    p:last-child {
+        color: #333333;
+
+
+        span {
+            font-weight: 500;
+        }
+
+        span:hover {
+            cursor: pointer;
+        }
+    }
+}

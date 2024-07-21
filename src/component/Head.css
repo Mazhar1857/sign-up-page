@@ -1,0 +1,50 @@
+.header {
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-inline: 40px;
+    padding-bottom: 18px;
+    background-color: white;
+
+    .logo {
+        font-size: 2em;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        line-height: 1;
+        font-weight: 700;
+
+    }
+
+    .navigation {
+        display: flex;
+        font-size: 1em;
+        font-weight: 600;
+        gap: 32px;
+        justify-content: center;
+        text-wrap: nowrap;
+    }
+
+    .cart {
+        display: flex;
+        gap: 32px;
+
+        img {
+            width: 32px;
+            aspect-ratio: 1;
+        }
+    }
+
+    >:last-child {
+        position: absolute;
+        top: 12px;
+        right: 40px;
+
+        display: flex;
+        gap: 20px;
+        text-wrap: nowrap;
+        font-size: 12px;
+    }
+
+}

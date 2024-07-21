@@ -1,0 +1,16 @@
+.advertise {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-block: 11px 8px;
+
+    img {
+        width: 16px;
+        aspect-ratio: 1;
+    }
+
+    p {
+        font-size: 14px;
+
+    }
+}
