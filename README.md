@@ -1,11 +1,11 @@
 # Dummy username and password
 
- email: 'mazhar@gmail.com'
+ email: 'mazhar@gmail.com',
  password: '123456789'
 
 -----------------------------
 
-email: 'ali@gmail.com'
+email: 'ali@gmail.com',
 password: '987654321'
 
 
